@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.support.v4.view.ViewPager;
+import androidx.core.view.ViewPager;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;

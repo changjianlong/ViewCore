@@ -1,9 +1,9 @@
 package com.lzy.widget.loop;
 
 import android.os.Parcelable;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.PagerAdapter;
+import androidx.core.app.FragmentPagerAdapter;
+import androidx.core.app.FragmentStatePagerAdapter;
+import androidx.core.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 

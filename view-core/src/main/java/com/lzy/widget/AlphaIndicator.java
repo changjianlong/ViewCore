@@ -3,7 +3,7 @@ package com.lzy.widget;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.v4.view.ViewPager;
+import androidx.core.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
