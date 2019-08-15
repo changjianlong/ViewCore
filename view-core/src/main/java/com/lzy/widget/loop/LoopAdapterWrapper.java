@@ -1,11 +1,12 @@
 package com.lzy.widget.loop;
 
 import android.os.Parcelable;
-import androidx.core.app.FragmentPagerAdapter;
-import androidx.core.app.FragmentStatePagerAdapter;
-import androidx.core.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.PagerAdapter;
 
 /**
  * ================================================

@@ -3,7 +3,8 @@ package com.lzy.widget;
 import android.content.Context;
 import androidx.core.view.GestureDetectorCompat;
 import androidx.core.view.ViewCompat;
-import androidx.core.widget.ViewDragHelper;
+import androidx.customview.widget.ViewDragHelper;
+
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.GestureDetector;

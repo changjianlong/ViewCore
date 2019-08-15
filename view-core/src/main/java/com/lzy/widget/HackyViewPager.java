@@ -1,9 +1,10 @@
 package com.lzy.widget;
 
 import android.content.Context;
-import androidx.core.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+
+import androidx.viewpager.widget.ViewPager;
 
 public class HackyViewPager extends ViewPager {
 

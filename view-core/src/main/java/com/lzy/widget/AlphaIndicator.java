@@ -3,10 +3,11 @@ package com.lzy.widget;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Parcelable;
-import androidx.core.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
+
+import androidx.viewpager.widget.ViewPager;
 
 import java.util.ArrayList;
 import java.util.List;

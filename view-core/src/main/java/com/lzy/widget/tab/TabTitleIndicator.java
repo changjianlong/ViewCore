@@ -9,8 +9,6 @@ import android.graphics.Paint.Style;
 import android.graphics.Path;
 import android.os.Bundle;
 import android.os.Parcelable;
-import androidx.core.view.ViewPager;
-import androidx.core.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
@@ -21,6 +19,8 @@ import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.viewpager.widget.ViewPager;
 
 import com.lzy.widget.R;
 
@@ -412,7 +412,7 @@ public class TabTitleIndicator extends HorizontalScrollView {
         }
     }
 
-    private class PageListener implements OnPageChangeListener {
+    private class PageListener implements ViewPager.OnPageChangeListener {
 
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {

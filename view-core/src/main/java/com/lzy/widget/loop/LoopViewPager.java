@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Parcelable;
-import androidx.core.view.PagerAdapter;
-import androidx.core.view.ViewPager;
 import android.util.AttributeSet;
+
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import com.lzy.widget.R;
 
